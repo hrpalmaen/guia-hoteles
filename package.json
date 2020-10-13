@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hrpalmaen/guia-hoteles/issues"
   },
-  "homepage": "https://github.com/hrpalmaen/guia-hoteles#readme"
+  "homepage": "https://github.com/hrpalmaen/guia-hoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
