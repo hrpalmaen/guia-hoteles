@@ -1,0 +1,21 @@
+.jumbotron {
+    background: red;
+}
+.btn {
+    color: #ffffff;
+    background-color: green;
+}
+.card-hotel {
+    flex: 1 300px;
+    padding: 1%;
+}
+.btn-reserve {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: red;
+}
