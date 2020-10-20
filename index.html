@@ -2,9 +2,38 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <tittle>Guia hoteles</tittle>
+        <title>Guia hoteles</title>
+
+        <!-- Boostrap css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     </head>
     <body>
-        <p>Hola mundo!</p>
+        <h1 class="jumbotron text-center">Gampling campestre</h1>
+        <div class="container row">
+            <p class="col-lg-4 col-sm-12 text-center">Inicio</p>
+            <p class="col-lg-4 col-sm-12 text-center">Ubicación</p>
+            <p class="col-lg-4 col-sm-12 text-center">Conocenos</p>
+        </div>
+        <div class="list-group">
+            <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Termales</h5>
+                    <small>El gampling permite el ingreso a una piscina termal</small>
+                    <button>Prueba</button>
+                </div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Hamaca</h5>
+                    <small>La ahamaca con vista al nevado</small>
+                    <button>Prueba</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jquery, popper -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>
